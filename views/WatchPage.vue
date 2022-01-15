@@ -1,10 +1,10 @@
 <template>
-$END$
+  <div><h1>Video id: {{ $route.query.id }} </h1></div>
 </template>
 
 <script>
 export default {
-name: "WatchPage"
+  name: "WatchPage",
 }
 </script>
 
